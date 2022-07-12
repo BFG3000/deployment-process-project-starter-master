@@ -39,6 +39,7 @@ jobs:
       - run:
           name: Front-End Build
           command: |
+            npm run frontend:build
             echo "TODO: Build the frontend app"
       # TODO: Build the backend API      
       - run:
@@ -60,6 +61,7 @@ jobs:
           name: Deploy App
           # TODO: Install, build, deploy in both apps
           command: |
+            npm run frontend:deploy
             echo "# TODO: Install, build, deploy in both apps"
             
 workflows:
