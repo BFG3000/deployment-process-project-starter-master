@@ -1,6 +1,6 @@
 branch-defaults:
   default:
-    environment: Servertest-env
+    environment: test-server
 deploy:
   artifact: www/Archive.zip
 environment-defaults:
@@ -8,7 +8,7 @@ environment-defaults:
     branch: null
     repository: null
 global:
-  application_name: server-test
+  application_name: Testserver-env
   default_ec2_keyname: null
   default_platform: Node.js 14 running on 64bit Amazon Linux 2
   default_region: us-east-1
